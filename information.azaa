@@ -1,0 +1,8 @@
+{
+  "shard": {
+      "image": "https://raw.githubusercontent.com/Azaaxin/weather-app/master/logo.png",
+      "display": "true",
+      "website": "http://wuebase.com/api/",
+      "text": ""
+  }
+}

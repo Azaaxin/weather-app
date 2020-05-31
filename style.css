@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+body{
+    overflow: hidden;
+}
+.ultra-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+}
+.todo{
+    text-align: center;
+    display: flex;
+}
+.wrapper{
+    margin-left: 5px;
+}
+.text{
+    font-weight: bold;
+}
+.ip_wrapper{
+    font-weight: bold;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    background: linear-gradient(312deg, #0ce8af, #a8ac0a, #0ce8e0);
+    background-size: 600% 600%;
+    -webkit-animation: weather-app-background 59s ease infinite;
+    -moz-animation: weather-app-background 59s ease infinite;
+    -o-animation: weather-app-background 59s ease infinite;
+    animation: weather-app-background 59s ease infinite;
+}
+@-webkit-keyframes weather-app-background {
+    0%{background-position:0% 45%}
+    50%{background-position:100% 56%}
+    100%{background-position:0% 45%}
+}
+@-moz-keyframes weather-app-background {
+    0%{background-position:0% 45%}
+    50%{background-position:100% 56%}
+    100%{background-position:0% 45%}
+}
+@-o-keyframes weather-app-background {
+    0%{background-position:0% 45%}
+    50%{background-position:100% 56%}
+    100%{background-position:0% 45%}
+}
+@keyframes weather-app-background {
+    0%{background-position:0% 45%}
+    50%{background-position:100% 56%}
+    100%{background-position:0% 45%}
+}

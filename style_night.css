@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient(312deg, #000246, #171616, #560ce8) !important;
+    background-size: 600% 600% !important;
+    -webkit-animation: weather-app-background 59s ease infinite !important;
+    -moz-animation: weather-app-background 59s ease infinite !important;
+    -o-animation: weather-app-background 59s ease infinite  !important;
+    animation: weather-app-background 59s ease infinite  !important;
+}
+*{color: #fff !important; }
